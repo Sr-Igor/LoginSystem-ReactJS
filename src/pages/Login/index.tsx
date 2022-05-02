@@ -14,7 +14,6 @@ export const Login = () => {
     const verifyLogin = async () => {
         if (email && password) {
             const isLogged = await auth.singin(email, password)
-            console.log(isLogged)
             if(isLogged){
                 navigate('/')
             }else {

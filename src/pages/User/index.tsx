@@ -9,7 +9,7 @@ export const User = () => {
                     <span className='material-icons'>account_circle</span>
                     <span className='ml-5'>Olá, Usuário</span>
                 </div>
-                <div className='text-white text-4xl'>User Area For Logged Users</div>
+                <div className='text-white text-4xl text-center'>User Area For Logged Users</div>
             </div>
         </C.Container>
     )
